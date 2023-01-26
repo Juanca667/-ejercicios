@@ -5,6 +5,12 @@ echo $edad . "<br/>";
 
 $edad = 40; // cambiar valor de la variable 
 
-echo $edad;
+echo $edad . "<br/>";
 
 //uso de contastantes 
+
+define("NOMBRE", "OSCAR");
+
+//imprimir constante 
+
+echo NOMBRE;
